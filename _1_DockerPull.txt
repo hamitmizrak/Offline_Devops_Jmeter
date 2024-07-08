@@ -2,3 +2,5 @@ docker search nginx
 docker pull nginx
 docker container run -d -p 1111:80 nginx
 docker container run -d -p 1111:80 --rm nginx
+
+curl localhost:1111
